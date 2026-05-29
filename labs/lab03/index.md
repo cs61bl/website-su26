@@ -3,6 +3,7 @@ layout: page
 title: >-
     Lab 03: Intro to Objects and Primitives
 has_children: true
+nav_exclude: true
 parent: Labs
 has_toc: false
 has_right_toc: true

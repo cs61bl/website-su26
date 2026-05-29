@@ -4,10 +4,10 @@ title: >-
   Lab 16: Disjoint Sets
 has_children: true
 parent: Labs
-nav_exclude: false
+nav_exclude: true
 has_toc: false
 has_right_toc: true
-released: true
+released: false
 ---
 
 ## [FAQ](faq)

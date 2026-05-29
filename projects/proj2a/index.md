@@ -5,11 +5,11 @@ nav_order: 3
 parent: Projects
 has_children: true
 has_toc: false
-nav_exclude: false
+nav_exclude: true
 has_right_toc: true
 description: >-
   Project 2A spec.
-released: true
+released: false
 ---
 ## Due: Wednesday, July 16th at 11:59 PM PT
 

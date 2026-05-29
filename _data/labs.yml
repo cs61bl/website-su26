@@ -69,10 +69,12 @@
 #     - schedule-purple
 
 labs:
-  - title: "Introduction to Java, Git, and Setup"
-    due: "2026/06/24"
-    link: "/labs/lab01"
-    show_links: true
+  - nonumber: true
+    rowspan: 100
+  #- title: "Introduction to Java, Git, and Setup"
+  #  due: "2026/06/24"
+  #  link: "/labs/lab01"
+  #  show_links: true
 
   # - title: "Setup, Git"
   #   link: "/labs/lab01"

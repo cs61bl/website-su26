@@ -6,10 +6,10 @@ parent: Projects
 has_children: true
 has_toc: false
 has_right_toc: true
-nav_exclude: false
+nav_exclude: true
 description: >-
   Project 2B spec.
-released: true
+released: false
 ---
 
 ## [FAQ](faq.md)
