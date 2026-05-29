@@ -25,7 +25,7 @@
 
 # - Jekyll default variables.
 # - For the title on the homepage, the name people see in the browser tab, etc.
-title: "CS 61BL Summer 2025"
+title: "CS 61BL Summer 2026"
 description: "Data Structures at UC Berkeley"
 
 # - Jekyll default variable.
@@ -36,7 +36,7 @@ description: "Data Structures at UC Berkeley"
 #   then this should say "" since there is no subpath
 # - If not empty, the baseurl MUST start with a leading slash,
 #   and MUST NOT have a slash at the end. "/sp25" is good, "/sp25/" is bad
-baseurl: "/su25"
+baseurl: "/su26"
 
 # - Jekyll default variable.
 # - The full URL of your homepage.
@@ -49,13 +49,13 @@ logo: '/assets/images/bear.webp'
 # - Used in _includes/title.html
 # - Optional text that replaces site.title at the top of the sidebar when set.
 # - If logo is set and shorthand_text is left blank, the logo will take up 100% of the space.
-shorthand_text: 'CS 61BL SU25'
+shorthand_text: 'CS 61BL SU26'
 
 # - Can be used throughout the website (e.g. project specs).
 # - Example: In the spec, write "Pull from the skeleton-{{ site.semester_slug }} repo."
 #   This will automatically update to "skeleton-fa24" or "skeleton-sp25" each semester.
-semester_slug: "su25"
-semester_full: "Summer 2025"
+semester_slug: "su26"
+semester_full: "Summer 2026"
 
 # - Updates the top line of the homepage, i.e. the one that says
 #   "Instructor: EvanBot / Lecture: TuTh, 12:30–2:00 PM, Wheeler 150 [Zoom, Playlist]"
@@ -63,7 +63,7 @@ semester_full: "Summer 2025"
 lecture:
   time: "MW, 9-10 AM"
   location:
-      name: "Evans 10"
+      name: "Li Ka Shing 245"
       link: ""
 heading_links:
   - text: "Zoom"

@@ -31,19 +31,19 @@
 week_extra:
   - name: "Survey" # week 1
     link: "https://forms.gle/XGsoiBSHNbhVksyP9"
-    show_extra: true
+    show_extra: false
   - name: "Survey" # week 2
     link: "https://forms.gle/4bnwRPsFLad4mxgD9"
-    show_extra: true
+    show_extra: false
   - name: "Survey" # week 3
     link: "https://forms.gle/cXx7Qn2TJCgFuK6g7"
-    show_extra: true
+    show_extra: false
   - name: "Survey" # week 4
     link: "https://forms.gle/pK8UH97rLRW7m2Zu5"
-    show_extra: true
+    show_extra: false
   - name: "Survey" # week 5
     link: "https://forms.gle/7A7Zwi19hVUvYgSZ9"
-    show_extra: true
+    show_extra: false
   - name: "Survey" # week 6
     link: "https://forms.gle/xQiovC19W31f338QA"
     show_extra: false

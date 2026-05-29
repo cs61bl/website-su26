@@ -74,56 +74,56 @@ homeworks:
   - title: "Homework 0"
     due: "2025/06/24"
     link: "https://www.gradescope.com/courses/1050654/assignments/6356907"
-    show_links: true
+    show_links: false
     rowspan: 2
     classes:
       - "schedule-yellow"
   - title: "Homework 1"
     due: "2025/07/01"
     link: "https://www.gradescope.com/courses/1050654/assignments/6372041"
-    show_links: true
+    show_links: false
     rowspan: 5
     classes:
       - "schedule-yellow"
   - title: "Homework 2"
     due: "2025/07/08"
     link: "https://www.gradescope.com/courses/1050654/assignments/6389510"
-    show_links: true
+    show_links: false
     rowspan: 5
     classes:
       - "schedule-yellow"
   - title: "Homework 3"
     due: "2025/07/15"
     link: "https://www.gradescope.com/courses/1050654/assignments/6402518"
-    show_links: true
+    show_links: false
     rowspan: 5
     classes:
       - "schedule-yellow"
   - title: "Homework 4"
     due: "2025/07/22"
     link: "https://www.gradescope.com/courses/1050654/assignments/6417280"
-    show_links: true
+    show_links: false
     rowspan: 5
     classes:
       - "schedule-yellow"
   - title: "Homework 5"
     due: "2025/07/29"
     link: "https://www.gradescope.com/courses/1050654/assignments/6426965"
-    show_links: true
+    show_links: false
     rowspan: 5
     classes:
       - "schedule-yellow"
   - title: "Homework 6"
     due: "2025/08/05"
     link: "https://www.gradescope.com/courses/1050654/assignments/6446201"
-    show_links: true
+    show_links: false
     rowspan: 5
     classes:
       - "schedule-yellow"
   - title: "Homework 7"
     due: "2025/08/11"
     link: "https://www.gradescope.com/courses/1050654/assignments/6454137"
-    show_links: true
+    show_links: false
     rowspan: 5
     classes:
       - "schedule-yellow"

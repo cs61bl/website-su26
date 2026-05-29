@@ -75,21 +75,21 @@ projects:
   #   rowspan: 1
   - title: "Project 0: 2048"
     link: "/projects/proj0"
-    show_links: true
+    show_links: false
     due: "2025/06/29"
     classes:
       - "schedule-green"
     rowspan: 5
   - title: "Project 1A: LinkedListDeque"
     link: "/projects/proj1a"
-    show_links: true
+    show_links: false
     due: "2025/07/03"
     classes:
       - "schedule-blue"
     rowspan: 4
   - title: "Project 1B: ArrayDeque"
     link: "/projects/proj1b"
-    show_links: true
+    show_links: false
     due: "2025/07/09"
     classes:
       - "schedule-blue"
@@ -98,7 +98,7 @@ projects:
   #   rowspan: 4
   - title: "Project 2A: NGrams"
     link: "/projects/proj2a"
-    show_links: true
+    show_links: false
     due: "2025/07/16"
     classes:
       - "schedule-purple"
@@ -112,21 +112,21 @@ projects:
   #     - "schedule-green"
   - title: "Project 2B: Wordnet"
     link: "/projects/proj2b"
-    show_links: true
+    show_links: false
     due: "2025/07/27"
     classes:
       - "schedule-purple"
     rowspan: 7
   - title: "Project 3A: World Generation"
     link: "/projects/proj3/proj3a"
-    show_links: true
+    show_links: false
     due: "2025/08/04"
     classes:
       - "schedule-green"
     rowspan: 6
   - title: "Project 3B: Interactivity"
     link: "/projects/proj3/proj3b"
-    show_links: true
+    show_links: false
     due: "2025/08/10"
     classes:
       - "schedule-green"
