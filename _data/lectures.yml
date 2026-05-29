@@ -67,56 +67,127 @@
 lecture_prefix: "/assets/lectures/cs61bl-su26-lec"
 
 lectures:
-  # Week 1
-  - title: "Lecture 1: Introduction and Logistics; Introduction to Java, Git, and Setup"
+  # WEEK 1
+  # Monday (Row 1): Lecture 1 & 2
+  - title: "Introduction and Logistics"
     rowspan: 2
-  - title: "Lecture 2: Instantiation, References, Primitives, Objects; Testing"
+  - title: "Introduction to Java, Git, and Setup"
+    rowspan: 2
+
+  # Wednesday (Row 3): Lecture 3 & 4
+  - title: "Instantiation, References, Primitives, Objects"
+    rowspan: 3
+  - title: "Testing"
     rowspan: 3
 
-  # Week 2
-  - title: "Lecture 3: Linked Lists; Generics, ArrayLists"
+  # WEEK 2
+  # Monday (Row 6): Lecture 5 & 6
+  - title: "Linked Lists"
     rowspan: 2
-  - title: "Lecture 4: Inheritance; Object Methods, Comparison, Iteration"
+  - title: "Generics, ArrayLists"
+    rowspan: 2
+
+  # Wednesday (Row 8): Lecture 7 & 8
+  - title: "Inheritance"
+    rowspan: 3
+  - title: "Object Methods, Comparison, Iteration"
     rowspan: 3
 
-  # Week 3
-  - title: "Lecture 5: Abstract Data Types; Asymptotics"
+  # WEEK 3
+  # Monday (Row 11): Lecture 9 & 10
+  - title: "Abstract Data Types"
     rowspan: 2
-  - title: "Lecture 6: More Asymptotics; Trees"
+  - title: "Asymptotics"
+    rowspan: 2
+
+  # Wednesday (Row 13): Lecture 11 & 12
+  - title: "More Asymptotics"
+    rowspan: 3
+  - title: "Trees"
     rowspan: 3
 
-  # Week 4
-  - title: "Lecture 7: Tree Traversals; B-Trees"
+  # WEEK 4
+  # Monday (Row 16): Lecture 13 & 14
+  - title: "Tree Traversals"
     rowspan: 2
-  - title: "Lecture 8: Red-Black Trees; Exam Advice / Review"
+  - title: "B-Trees"
     rowspan: 2
+
+  # Wednesday (Row 18): Lecture 15 & 16
+  # NOTE: We need to handle the Midterm Exam on Friday.
+  # If we want the Midterm on Friday, Wednesday's box can only rowspan 2.
+  - title: "Red-Black Trees"
+    rowspan: 2
+  - title: "Exam Advice / Review"
+    rowspan: 2
+  
+  # Friday (Row 20): Midterm
   - title: "Midterm Exam"
     nonumber: true
     rowspan: 1
-
-  # Week 5
-  - title: "Lecture 9: Hashing; Heaps and Priority Queues"
-    rowspan: 2
-  - title: "Lecture 10: Disjoint Sets; Introduction to Graphs"
-    rowspan: 3
-
-  # Week 6
-  - title: "Lecture 11: Graph Traversals, DAGs, Topological Sorts; BYOW Introduction"
-    rowspan: 2
-  - title: "Lecture 12: Shortest Path Trees; Minimum Spanning Trees"
-    rowspan: 3
-
-  # Week 7
-  - title: "Lecture 13: Comparison Sorts; Quicksort"
-    rowspan: 2
-  - title: "Lecture 14: Radix Sorts; Sorting Bounds"
-    rowspan: 3
-
-  # Week 8
-  - title: "Lecture 15: Exam Review / Q&A"
+  - title: "" # Empty second lecture for the same cell
+    nonumber: true
     rowspan: 1
+
+  # WEEK 5
+  # Monday (Row 21): Lecture 17 & 18
+  - title: "Hashing"
+    rowspan: 2
+  - title: "Heaps and Priority Queues"
+    rowspan: 2
+
+  # Wednesday (Row 23): Lecture 19 & 20
+  - title: "Disjoint Sets"
+    rowspan: 3
+  - title: "Introduction to Graphs"
+    rowspan: 3
+
+  # WEEK 6
+  # Monday (Row 26): Lecture 21 & 22
+  - title: "Graph Traversals, DAGs, Topological Sorts"
+    rowspan: 2
+  - title: "BYOW Introduction"
+    rowspan: 2
+
+  # Wednesday (Row 28): Lecture 23 & 24
+  - title: "Shortest Path Trees"
+    rowspan: 3
+  - title: "Minimum Spanning Trees"
+    rowspan: 3
+
+  # WEEK 7
+  # Monday (Row 31): Lecture 25 & 26
+  - title: "Comparison Sorts"
+    rowspan: 2
+  - title: "Quicksort"
+    rowspan: 2
+
+  # Wednesday (Row 33): Lecture 27 & 28
+  - title: "Radix Sorts"
+    rowspan: 3
+  - title: "Sorting Bounds"
+    rowspan: 3
+
+  # WEEK 8
+  # Monday (Row 36): Lecture 29
+  - title: "Exam Review / Q&A"
+    rowspan: 1
+  - title: "" # Empty second lecture
+    nonumber: true
+    rowspan: 1
+  
+  # Tuesday (Row 37): Final Exam
   - title: "Final Exam"
     nonumber: true
     rowspan: 1
-  - nonumber: true
+  - title: ""
+    nonumber: true
+    rowspan: 1
+
+  # Rest of week blank
+  - title: ""
+    nonumber: true
+    rowspan: 3
+  - title: ""
+    nonumber: true
     rowspan: 3
