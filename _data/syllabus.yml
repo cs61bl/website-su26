@@ -34,7 +34,7 @@ class_days: ['1', '2', '3', '4', '5']
 # For example, if you set starting_homework_number to 0, then the first homework
 # assignment you create is numbered HW0. If you set it to 1, then that same
 # assignment is numbered HW1 instead.
-starting_lecture_number: '0'
+starting_lecture_number: '1'
 starting_readings_number: '1'
 starting_recordings_number: '1'
 starting_discussion_number: '0'

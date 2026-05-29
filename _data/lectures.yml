@@ -64,39 +64,59 @@
 # - You should not need to change these unless you're rebuilding the website.
 # - If your lecture slides are Google Slides links, ignore this.
 # - If your lecture slides are PDFs in this repo, update this.
-lecture_prefix: "/assets/lectures/cs101-sp25-lec"
-# [CS61B] We don't use lecture_prefix. ~peyrin Jun 2025
+lecture_prefix: "/assets/lectures/cs61bl-su26-lec"
 
 lectures:
+  # Week 1
+  - title: "Lecture 1: Introduction and Logistics; Introduction to Java, Git, and Setup"
   - nonumber: true
-    rowspan: 100
-  #- title: "Introduction and Logistics"
-  #  slides: https://docs.google.com/presentation/d/1g31wXLoykVRf5cP1X3fsYdW6pwcZv9Ut0k3FZYOxOtU/edit?usp=sharing
-    # video: ""
-    # reading: 
-    # recording: https://www.youtube.com/watch?v=dQw4w9WgXcQ
-    # quiz: https://forms.gle/9YzSaMr74atHPoai7
-  #  readings: 
-  #    - title: "Course Policies"
-  #      link: policies
+  - title: "Lecture 2: Instantiation, References, Primitives, Objects; Testing"
+  - nonumber: true
+    rowspan: 2
 
-  # saving below for reference
-  
-  # - title: "Intro, Instance Variables"
-  #   slides: "https://docs.google.com/presentation/d/1_funKmLVePWqfNulUl5yehBQmV1gxHarI_VkMgQ_Ah8/edit#slide=id.g3280633c3ea_0_148"
-  #   video: "https://www.youtube.com/playlist?list=PLnp31xXvnfRq5wRDN8wZFy7GrrJXUtr1q"
-  #   recording: "https://www.youtube.com/watch?v=qMdLi5v8aT4"
-  #   quiz: "https://forms.gle/9YzSaMr74atHPoai7"
-  #   readings:
-  #     - name: "Ch. 1"
-  #       link: "https://cs61b-2.gitbook.io/cs61b-textbook/1.-introduction"
-  # - title: "Summary, Fun [Optional]"
-  #   slides: "https://docs.google.com/presentation/d/1U9ljZcRX3zYHRw4IesdqD4KMRCqig6UGjXdmYC1bE7I/edit?usp=sharing"
-  #   recording: "https://youtu.be/wIL8ELdtgBo"
-  #   classes:
-  #     - schedule-red
-  # - title: "No Lecture (RRR Week)"
-  #   rowspan: 3
-  #   nonumber: True
-  # - title: "**Final Exam (Tue, May 13, 8–11am)**"
-  #   nonumber: True
+  # Week 2
+  - title: "Lecture 3: Linked Lists; Generics, ArrayLists"
+  - nonumber: true
+  - title: "Lecture 4: Inheritance; Object Methods, Comparison, Iteration"
+  - nonumber: true
+    rowspan: 2
+
+  # Week 3
+  - title: "Lecture 5: Abstract Data Types; Asymptotics"
+  - nonumber: true
+  - title: "Lecture 6: More Asymptotics; Trees"
+  - nonumber: true
+    rowspan: 2
+
+  # Week 4
+  - title: "Lecture 7: Tree Traversals; B-Trees"
+  - nonumber: true
+  - title: "Lecture 8: Red-Black Trees; Exam Advice / Review"
+  - nonumber: true
+    rowspan: 2
+
+  # Week 5
+  - title: "Lecture 9: Hashing; Heaps and Priority Queues"
+  - nonumber: true
+  - title: "Lecture 10: Disjoint Sets; Introduction to Graphs"
+  - nonumber: true
+    rowspan: 2
+
+  # Week 6
+  - title: "Lecture 11: Graph Traversals, DAGs, Topological Sorts; BYOW Introduction"
+  - nonumber: true
+  - title: "Lecture 12: Shortest Path Trees; Minimum Spanning Trees"
+  - nonumber: true
+    rowspan: 2
+
+  # Week 7
+  - title: "Lecture 13: Comparison Sorts; Quicksort"
+  - nonumber: true
+  - title: "Lecture 14: Radix Sorts; Sorting Bounds"
+  - nonumber: true
+    rowspan: 2
+
+  # Week 8
+  - title: "Lecture 15: Exam Review / Q&A"
+  - nonumber: true
+    rowspan: 4
