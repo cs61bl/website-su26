@@ -64,130 +64,39 @@
 # - You should not need to change these unless you're rebuilding the website.
 # - If your lecture slides are Google Slides links, ignore this.
 # - If your lecture slides are PDFs in this repo, update this.
-lecture_prefix: "/assets/lectures/cs61bl-su26-lec"
+lecture_prefix: "/assets/lectures/cs101-sp25-lec"
+# [CS61B] We don't use lecture_prefix. ~peyrin Jun 2025
 
 lectures:
-  # WEEK 1
-  # Monday (Row 1): Lecture 1 & 2
-  - title: "Introduction and Logistics"
-    rowspan: 2
-  - title: "Introduction to Java, Git, and Setup"
-    rowspan: 2
+  - nonumber: true
+    rowspan: 100
+  #- title: "Introduction and Logistics"
+  #  slides: https://docs.google.com/presentation/d/1g31wXLoykVRf5cP1X3fsYdW6pwcZv9Ut0k3FZYOxOtU/edit?usp=sharing
+    # video: ""
+    # reading: 
+    # recording: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+    # quiz: https://forms.gle/9YzSaMr74atHPoai7
+  #  readings: 
+  #    - title: "Course Policies"
+  #      link: policies
 
-  # Wednesday (Row 3): Lecture 3 & 4
-  - title: "Instantiation, References, Primitives, Objects"
-    rowspan: 3
-  - title: "Testing"
-    rowspan: 3
-
-  # WEEK 2
-  # Monday (Row 6): Lecture 5 & 6
-  - title: "Linked Lists"
-    rowspan: 2
-  - title: "Generics, ArrayLists"
-    rowspan: 2
-
-  # Wednesday (Row 8): Lecture 7 & 8
-  - title: "Inheritance"
-    rowspan: 3
-  - title: "Object Methods, Comparison, Iteration"
-    rowspan: 3
-
-  # WEEK 3
-  # Monday (Row 11): Lecture 9 & 10
-  - title: "Abstract Data Types"
-    rowspan: 2
-  - title: "Asymptotics"
-    rowspan: 2
-
-  # Wednesday (Row 13): Lecture 11 & 12
-  - title: "More Asymptotics"
-    rowspan: 3
-  - title: "Trees"
-    rowspan: 3
-
-  # WEEK 4
-  # Monday (Row 16): Lecture 13 & 14
-  - title: "Tree Traversals"
-    rowspan: 2
-  - title: "B-Trees"
-    rowspan: 2
-
-  # Wednesday (Row 18): Lecture 15 & 16
-  # NOTE: We need to handle the Midterm Exam on Friday.
-  # If we want the Midterm on Friday, Wednesday's box can only rowspan 2.
-  - title: "Red-Black Trees"
-    rowspan: 2
-  - title: "Exam Advice / Review"
-    rowspan: 2
+  # saving below for reference
   
-  # Friday (Row 20): Midterm
-  - title: "Midterm Exam"
-    nonumber: true
-    rowspan: 1
-  - title: "" # Empty second lecture for the same cell
-    nonumber: true
-    rowspan: 1
-
-  # WEEK 5
-  # Monday (Row 21): Lecture 17 & 18
-  - title: "Hashing"
-    rowspan: 2
-  - title: "Heaps and Priority Queues"
-    rowspan: 2
-
-  # Wednesday (Row 23): Lecture 19 & 20
-  - title: "Disjoint Sets"
-    rowspan: 3
-  - title: "Introduction to Graphs"
-    rowspan: 3
-
-  # WEEK 6
-  # Monday (Row 26): Lecture 21 & 22
-  - title: "Graph Traversals, DAGs, Topological Sorts"
-    rowspan: 2
-  - title: "BYOW Introduction"
-    rowspan: 2
-
-  # Wednesday (Row 28): Lecture 23 & 24
-  - title: "Shortest Path Trees"
-    rowspan: 3
-  - title: "Minimum Spanning Trees"
-    rowspan: 3
-
-  # WEEK 7
-  # Monday (Row 31): Lecture 25 & 26
-  - title: "Comparison Sorts"
-    rowspan: 2
-  - title: "Quicksort"
-    rowspan: 2
-
-  # Wednesday (Row 33): Lecture 27 & 28
-  - title: "Radix Sorts"
-    rowspan: 3
-  - title: "Sorting Bounds"
-    rowspan: 3
-
-  # WEEK 8
-  # Monday (Row 36): Lecture 29
-  - title: "Exam Review / Q&A"
-    rowspan: 1
-  - title: "" # Empty second lecture
-    nonumber: true
-    rowspan: 1
-  
-  # Tuesday (Row 37): Final Exam
-  - title: "Final Exam"
-    nonumber: true
-    rowspan: 1
-  - title: ""
-    nonumber: true
-    rowspan: 1
-
-  # Rest of week blank
-  - title: ""
-    nonumber: true
-    rowspan: 3
-  - title: ""
-    nonumber: true
-    rowspan: 3
+  # - title: "Intro, Instance Variables"
+  #   slides: "https://docs.google.com/presentation/d/1_funKmLVePWqfNulUl5yehBQmV1gxHarI_VkMgQ_Ah8/edit#slide=id.g3280633c3ea_0_148"
+  #   video: "https://www.youtube.com/playlist?list=PLnp31xXvnfRq5wRDN8wZFy7GrrJXUtr1q"
+  #   recording: "https://www.youtube.com/watch?v=qMdLi5v8aT4"
+  #   quiz: "https://forms.gle/9YzSaMr74atHPoai7"
+  #   readings:
+  #     - name: "Ch. 1"
+  #       link: "https://cs61b-2.gitbook.io/cs61b-textbook/1.-introduction"
+  # - title: "Summary, Fun [Optional]"
+  #   slides: "https://docs.google.com/presentation/d/1U9ljZcRX3zYHRw4IesdqD4KMRCqig6UGjXdmYC1bE7I/edit?usp=sharing"
+  #   recording: "https://youtu.be/wIL8ELdtgBo"
+  #   classes:
+  #     - schedule-red
+  # - title: "No Lecture (RRR Week)"
+  #   rowspan: 3
+  #   nonumber: True
+  # - title: "**Final Exam (Tue, May 13, 8–11am)**"
+  #   nonumber: True
