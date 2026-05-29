@@ -69,54 +69,54 @@ lecture_prefix: "/assets/lectures/cs61bl-su26-lec"
 lectures:
   # Week 1
   - title: "Lecture 1: Introduction and Logistics; Introduction to Java, Git, and Setup"
-  - nonumber: true
-  - title: "Lecture 2: Instantiation, References, Primitives, Objects; Testing"
-  - nonumber: true
     rowspan: 2
+  - title: "Lecture 2: Instantiation, References, Primitives, Objects; Testing"
+    rowspan: 3
 
   # Week 2
   - title: "Lecture 3: Linked Lists; Generics, ArrayLists"
-  - nonumber: true
-  - title: "Lecture 4: Inheritance; Object Methods, Comparison, Iteration"
-  - nonumber: true
     rowspan: 2
+  - title: "Lecture 4: Inheritance; Object Methods, Comparison, Iteration"
+    rowspan: 3
 
   # Week 3
   - title: "Lecture 5: Abstract Data Types; Asymptotics"
-  - nonumber: true
-  - title: "Lecture 6: More Asymptotics; Trees"
-  - nonumber: true
     rowspan: 2
+  - title: "Lecture 6: More Asymptotics; Trees"
+    rowspan: 3
 
   # Week 4
   - title: "Lecture 7: Tree Traversals; B-Trees"
-  - nonumber: true
-  - title: "Lecture 8: Red-Black Trees; Exam Advice / Review"
-  - nonumber: true
     rowspan: 2
+  - title: "Lecture 8: Red-Black Trees; Exam Advice / Review"
+    rowspan: 2
+  - title: "Midterm Exam"
+    nonumber: true
+    rowspan: 1
 
   # Week 5
   - title: "Lecture 9: Hashing; Heaps and Priority Queues"
-  - nonumber: true
-  - title: "Lecture 10: Disjoint Sets; Introduction to Graphs"
-  - nonumber: true
     rowspan: 2
+  - title: "Lecture 10: Disjoint Sets; Introduction to Graphs"
+    rowspan: 3
 
   # Week 6
   - title: "Lecture 11: Graph Traversals, DAGs, Topological Sorts; BYOW Introduction"
-  - nonumber: true
-  - title: "Lecture 12: Shortest Path Trees; Minimum Spanning Trees"
-  - nonumber: true
     rowspan: 2
+  - title: "Lecture 12: Shortest Path Trees; Minimum Spanning Trees"
+    rowspan: 3
 
   # Week 7
   - title: "Lecture 13: Comparison Sorts; Quicksort"
-  - nonumber: true
-  - title: "Lecture 14: Radix Sorts; Sorting Bounds"
-  - nonumber: true
     rowspan: 2
+  - title: "Lecture 14: Radix Sorts; Sorting Bounds"
+    rowspan: 3
 
   # Week 8
   - title: "Lecture 15: Exam Review / Q&A"
+    rowspan: 1
+  - title: "Final Exam"
+    nonumber: true
+    rowspan: 1
   - nonumber: true
-    rowspan: 4
+    rowspan: 3
